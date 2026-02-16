@@ -1,0 +1,777 @@
+[
+  {
+    "instruction": "What is the eligibility criteria for a home loan?",
+    "input": "",
+    "output": "Home loan eligibility depends on factors such as age (21-65 years), stable income source, credit score (typically 700+), employment history (minimum 2 years), and existing debt obligations. Both salaried and self-employed individuals can apply. Please visit your nearest branch or contact our helpline for a personalized eligibility assessment."
+  },
+  {
+    "instruction": "How can I check my loan application status?",
+    "input": "",
+    "output": "You can check your loan application status through our mobile banking app, internet banking portal, or by calling our customer care helpline. You will need your application reference number. Status updates are also sent via SMS and email to your registered contact details."
+  },
+  {
+    "instruction": "What documents are required for a personal loan?",
+    "input": "",
+    "output": "For a personal loan application, you typically need: identity proof (Aadhaar, PAN, Passport), address proof, income proof (salary slips for last 3 months or ITR for self-employed), bank statements for last 6 months, passport-size photographs, and a filled application form. Additional documents may be required based on the loan amount."
+  },
+  {
+    "instruction": "What is the loan tenure for a personal loan?",
+    "input": "",
+    "output": "Personal loan tenure typically ranges from 12 months to 60 months (1 to 5 years), depending on the loan amount and your repayment capacity. Some banks offer up to 84 months for higher amounts. A longer tenure means lower EMI but higher total interest outgo. Choose based on your monthly budget and financial goals."
+  },
+  {
+    "instruction": "Can I transfer my home loan to another bank?",
+    "input": "",
+    "output": "Yes, you can transfer your home loan to another bank through a balance transfer facility. This is beneficial when the new bank offers a lower interest rate. The process involves applying at the new bank, getting the outstanding amount from the current bank, and completing documentation. Transfer charges and processing fees may apply."
+  },
+  {
+    "instruction": "How do I apply for an education loan?",
+    "input": "",
+    "output": "To apply for an education loan: 1) Choose a recognized course and institution. 2) Visit the branch with admission letter, fee structure, academic records, income proof of co-borrower, and KYC documents. 3) Loans up to Rs. 7.5 lakh typically don't require collateral. 4) Processing takes 15-20 working days. Interest rates range from 8.5% to 11.5%. Repayment starts after the moratorium period."
+  },
+  {
+    "instruction": "How do I apply for a vehicle loan?",
+    "input": "",
+    "output": "To apply for a vehicle loan: 1) Choose your vehicle and get a quote. 2) Submit application with KYC documents, income proof, and bank statements. 3) Banks finance up to 80-90% of on-road price for new vehicles and 70-80% for used vehicles. 4) Interest rates range from 7.5% to 12%. 5) Tenure from 1-7 years. The vehicle serves as collateral. Processing takes 2-5 working days."
+  },
+  {
+    "instruction": "How do I apply for a business loan?",
+    "input": "",
+    "output": "To apply for a business loan: 1) Prepare business plan, financial statements (2-3 years), ITR, GST returns, and bank statements. 2) Visit the branch or apply online. 3) Loan amounts from Rs. 1 lakh to Rs. 5 crore. 4) Interest rates from 10% to 18% based on business vintage (min 2 years), turnover, and credit score. Both secured and unsecured options available. Processing takes 7-15 working days."
+  },
+  {
+    "instruction": "Can I get a pre-approved personal loan?",
+    "input": "",
+    "output": "Yes, banks offer pre-approved personal loans to select customers based on salary account relationship, good credit score, and repayment history. Pre-approved loans offer instant disbursement (within minutes through app), minimal documentation, lower interest rates, and sometimes no processing fee. Check your banking app for pre-approved offers."
+  },
+  {
+    "instruction": "Can I get a loan without a credit score?",
+    "input": "",
+    "output": "Some options exist for those without a credit history: 1) Secured loans against FD, gold, or property don't require credit scores. 2) Microfinance institutions offer small loans to first-time borrowers. 3) PMMY (Mudra) loans for small businesses with minimal credit requirements. 4) Start by getting a secured credit card to build credit history. Building credit takes 6-12 months of regular repayment."
+  },
+  {
+    "instruction": "Can I get a loan against my fixed deposit?",
+    "input": "",
+    "output": "Yes, you can get a loan against your fixed deposit up to 90% of the FD value. The interest rate is typically 1-2% above the FD interest rate. This is a quick process with minimal documentation since the FD serves as collateral. The loan tenure cannot exceed the FD maturity date. This option is useful for short-term fund requirements without breaking your FD."
+  },
+  {
+    "instruction": "What is a gold loan and how does it work?",
+    "input": "",
+    "output": "A gold loan allows you to borrow money by pledging gold ornaments or coins. Key features: 1) Loan up to 75% of gold's market value. 2) Interest rates from 7% to 14% per annum. 3) Quick processing (30 minutes to a few hours). 4) Flexible repayment options (bullet, EMI, or interest-only). 5) Minimal documentation. 6) Tenure from 3 months to 3 years. Failure to repay may result in auction of the pledged gold."
+  },
+  {
+    "instruction": "Can I get a top-up on my existing home loan?",
+    "input": "",
+    "output": "Yes, top-up loans are available on existing home loans for any purpose including renovation, education, or medical needs. Eligibility depends on your repayment track record (typically 12+ months of regular payments), remaining tenure, and property value. Top-up loan interest rates are usually 0.25-0.50% higher than your existing home loan rate. Combined LTV ratio should not exceed 75-80%."
+  },
+  {
+    "instruction": "What is the process for loan restructuring?",
+    "input": "",
+    "output": "Loan restructuring is offered to borrowers facing genuine financial difficulty. Process: 1) Submit a written request explaining the hardship. 2) Provide updated financial documents. 3) Bank may offer: tenure extension, temporary EMI reduction, moratorium period, or interest rate modification. 4) Restructuring may impact your credit score. Contact your loan servicing branch before you default on payments."
+  },
+  {
+    "instruction": "What are the benefits of Mudra loans?",
+    "input": "",
+    "output": "Pradhan Mantri Mudra Yojana offers loans for micro and small enterprises: 1) Shishu - up to Rs. 50,000 for start-ups. 2) Kishore - Rs. 50,000 to Rs. 5 lakh for mid-stage. 3) Tarun - Rs. 5 lakh to Rs. 10 lakh for expanding businesses. Benefits include no collateral requirement, low interest rates, flexible repayment, and support for first-generation entrepreneurs. Apply at any bank, NBFC, or MFI."
+  },
+  {
+    "instruction": "What happens if I miss an EMI payment?",
+    "input": "",
+    "output": "Missing an EMI payment has several consequences: 1) Late payment charge of 1-2% of the EMI amount. 2) Negative impact on your CIBIL credit score. 3) Bank sends reminders via SMS, email, and calls. 4) After 90 days of non-payment, the account is classified as NPA. 5) Extended default may lead to legal action and recovery proceedings. Contact the bank proactively to discuss restructuring options."
+  },
+  {
+    "instruction": "Can I prepay my home loan?",
+    "input": "",
+    "output": "Yes, you can prepay your home loan either partially or fully. For floating rate loans, there is no prepayment penalty as per RBI guidelines. For fixed rate loans, a prepayment charge of up to 2% on the outstanding amount may apply. Prepayment helps reduce your overall interest burden. Please contact your branch for the exact prepayment process."
+  },
+  {
+    "instruction": "How do I set up auto-debit for loan EMI?",
+    "input": "",
+    "output": "To set up auto-debit for loan EMI, submit a signed ECS/NACH mandate form at your branch or set it up through internet banking. You need to provide your bank account details, EMI amount, and debit date. Auto-debit ensures you never miss an EMI payment, protecting your credit score. Ensure sufficient balance to avoid bounce charges."
+  },
+  {
+    "instruction": "I am going through financial hardship. What options does the bank offer?",
+    "input": "",
+    "output": "We understand financial difficulties can be stressful. Options include: 1) Loan restructuring - extending tenure or reducing EMI temporarily. 2) Moratorium - temporary pause on EMI payments (interest still accrues). 3) Settlement - negotiated one-time settlement for outstanding dues. 4) Financial counseling services. Please visit your branch or contact your relationship manager to discuss your specific situation."
+  },
+  {
+    "instruction": "What is the eligibility for a car loan refinance?",
+    "input": "",
+    "output": "Car loan refinancing eligibility depends on: 1) Good repayment history on existing loan (6-12 months). 2) Vehicle age (typically less than 5 years). 3) Remaining loan amount and vehicle value. 4) Your credit score (700+). 5) Stable income. Refinancing can help lower your interest rate, reduce EMI, or extend tenure. Compare the savings against transfer charges before proceeding."
+  },
+  {
+    "instruction": "How is EMI calculated?",
+    "input": "",
+    "output": "EMI (Equated Monthly Installment) is calculated using the formula: EMI = P x r x (1+r)^n / ((1+r)^n - 1), where P is the principal amount, r is the monthly interest rate, and n is the tenure in months. For example, a loan of Rs. 10 lakh at 9% for 20 years would have an approximate EMI of Rs. 8,997. Use our EMI calculator on our website or app for exact calculations."
+  },
+  {
+    "instruction": "What is the current interest rate for a home loan?",
+    "input": "",
+    "output": "Home loan interest rates vary based on your credit profile, loan amount, and tenure. Current rates typically range from 8.25% to 9.50% per annum for salaried individuals. For the most accurate rate applicable to your profile, please contact our loan department or visit the nearest branch. Rates are subject to change based on RBI guidelines."
+  },
+  {
+    "instruction": "What is the difference between fixed and floating interest rates?",
+    "input": "",
+    "output": "Fixed interest rate remains constant throughout the loan tenure, providing predictable EMIs. Floating interest rate is linked to the repo rate or MCLR and changes periodically based on market conditions. Floating rates are generally lower initially but carry the risk of increase. Most borrowers prefer floating rates for long-tenure loans."
+  },
+  {
+    "instruction": "What is MCLR and how does it affect my loan?",
+    "input": "",
+    "output": "MCLR (Marginal Cost of Funds based Lending Rate) is the benchmark rate at which banks lend. When MCLR increases, your floating rate loan interest rate and EMI may rise at the next reset date (typically 6 months or 1 year). Post October 2019, new loans are linked to external benchmarks like Repo Rate. Existing MCLR-linked borrowers can switch to repo-linked rates by paying a conversion fee."
+  },
+  {
+    "instruction": "What is the Repo Rate and how does it affect me?",
+    "input": "",
+    "output": "The Repo Rate is the rate at which RBI lends to commercial banks. When the Repo Rate decreases, banks can borrow cheaply and typically lower lending rates, reducing your floating rate loan EMI. When it increases, your EMI may go up. Savings accounts and FD rates are also indirectly influenced. RBI reviews the Repo Rate every two months."
+  },
+  {
+    "instruction": "What are the tax benefits on a home loan?",
+    "input": "",
+    "output": "Home loans offer significant tax benefits: 1) Section 80C: Principal repayment deduction up to Rs. 1.5 lakh per year. 2) Section 24(b): Interest deduction up to Rs. 2 lakh per year for self-occupied property. 3) Section 80EEA: Additional Rs. 1.5 lakh for first-time buyers (if applicable). Consult a tax advisor for personalized advice."
+  },
+  {
+    "instruction": "How does the moratorium period work for education loans?",
+    "input": "",
+    "output": "The moratorium period for education loans covers the course duration plus 6-12 months after completion or 6 months after getting a job, whichever is earlier. During this period, you are not required to pay EMIs. However, interest continues to accrue. After the moratorium ends, repayment of principal and accumulated interest begins through regular EMIs."
+  },
+  {
+    "instruction": "What is the penalty for early closure of a fixed deposit?",
+    "input": "",
+    "output": "Early closure of FD attracts a penalty of 0.5% to 1% on the applicable interest rate. For example, if your FD rate is 7% and you close it prematurely, you may receive interest at 6-6.5% for the actual period. Tax-saver FDs (under Section 80C) have a mandatory 5-year lock-in and cannot be closed early."
+  },
+  {
+    "instruction": "What is a fixed deposit and what are the current rates?",
+    "input": "",
+    "output": "A Fixed Deposit (FD) is a savings instrument where you deposit a lump sum for a fixed period at a predetermined interest rate. Current FD rates range from 5.5% to 7.5% depending on tenure and amount. Senior citizens receive an additional 0.25% to 0.50%. FD tenures range from 7 days to 10 years. Premature withdrawal is allowed with a penalty."
+  },
+  {
+    "instruction": "What is a recurring deposit?",
+    "input": "",
+    "output": "A Recurring Deposit (RD) allows you to save a fixed amount every month for a chosen tenure (6 months to 10 years). Interest rates are similar to fixed deposits. The minimum monthly installment starts from Rs. 100. RDs are ideal for building a disciplined savings habit. Interest is compounded quarterly. Premature withdrawal is allowed with reduced interest."
+  },
+  {
+    "instruction": "What is Form 15G and Form 15H?",
+    "input": "",
+    "output": "Form 15G (for individuals below 60) and Form 15H (for senior citizens) are self-declaration forms to prevent TDS deduction on interest income. Submit at the beginning of each financial year if your total income is below the basic exemption limit. These apply to FD, RD, and savings interest. Submit separately to each bank."
+  },
+  {
+    "instruction": "How can I download my Form 16 or TDS certificate?",
+    "input": "",
+    "output": "Download your TDS certificate (Form 16A) through internet banking under the tax services section or from TRACES website (tdscpc.gov.in). TDS is deducted at 10% when FD interest exceeds Rs. 40,000 per year (Rs. 50,000 for senior citizens). Submit Form 15G/15H at the start of financial year to avoid TDS if your total income is below taxable limit."
+  },
+  {
+    "instruction": "What is the DICGC deposit insurance?",
+    "input": "",
+    "output": "DICGC (Deposit Insurance and Credit Guarantee Corporation) insures bank deposits up to Rs. 5 lakh per depositor per bank. This covers savings, current, FD, and RD accounts. If a bank fails, DICGC reimburses up to Rs. 5 lakh within 90 days. The insurance is automatic and free. For deposits above Rs. 5 lakh, consider spreading across multiple banks."
+  },
+  {
+    "instruction": "What are green deposits?",
+    "input": "",
+    "output": "Green deposits are fixed deposits where funds are allocated for environmentally sustainable projects such as renewable energy, clean transportation, and green buildings. Interest rates are comparable to regular FDs. Banks must disclose how funds are allocated. Regulated by RBI guidelines with third-party verification. Choose green deposits if you want savings to contribute to environmental sustainability."
+  },
+  {
+    "instruction": "What is the difference between NEFT and RTGS?",
+    "input": "",
+    "output": "NEFT processes transactions in batches every 30 minutes with no minimum amount. RTGS processes individually in real-time with a minimum of Rs. 2 lakh. Both are available 24x7 online and free for online transactions. Use NEFT for smaller amounts and RTGS for urgent large transfers."
+  },
+  {
+    "instruction": "How can I open a savings account?",
+    "input": "",
+    "output": "Visit your nearest branch with KYC documents (Aadhaar + PAN), one passport-size photo, and the initial deposit amount. You can also apply online through our website or app using video KYC. Minimum balance requirements vary by account type. The process takes about 30 minutes at the branch or 15 minutes online."
+  },
+  {
+    "instruction": "What is the minimum balance requirement for a savings account?",
+    "input": "",
+    "output": "Minimum balance varies by account type and location. Metro branches: typically Rs. 5,000, semi-urban: Rs. 3,000, rural: Rs. 1,000. Zero-balance accounts are available under schemes such as Jan Dhan Yojana and salary accounts. Non-maintenance of minimum balance may attract quarterly charges."
+  },
+  {
+    "instruction": "How can I update my mobile number linked to my account?",
+    "input": "",
+    "output": "Update your mobile number by visiting your home branch with a valid ID proof and a written request. Some banks allow this through internet banking. The change takes 24-48 hours to reflect. For security, mobile number changes cannot be done over phone or via customer care."
+  },
+  {
+    "instruction": "How can I view my account statement?",
+    "input": "",
+    "output": "View your account statement through: 1) Internet banking - download PDF for any date range. 2) Mobile app - view recent transactions. 3) ATM - print a mini statement of last 10 transactions. 4) Branch - request a detailed statement. 5) Email - register for monthly e-statements. Statements are available for up to 5 years of transaction history."
+  },
+  {
+    "instruction": "What is the process for closing a bank account?",
+    "input": "",
+    "output": "To close a bank account: 1) Visit your home branch with the filled closure form. 2) Submit unused cheque leaves, debit card, and passbook. 3) Transfer or withdraw the remaining balance. 4) Clear any pending dues. 5) Cancel auto-debits. The branch will provide an acknowledgment. Joint accounts require all holders to sign the closure form."
+  },
+  {
+    "instruction": "How can I link my Aadhaar to my bank account?",
+    "input": "",
+    "output": "Link Aadhaar to your bank account through internet banking, mobile app, ATM, or by visiting the branch. The process involves verifying your Aadhaar via OTP sent to your Aadhaar-registered mobile number. Linking is mandatory for receiving government subsidies. It is free of charge."
+  },
+  {
+    "instruction": "What is KYC and why is it required?",
+    "input": "",
+    "output": "KYC (Know Your Customer) is a mandatory RBI verification process. It helps prevent identity theft, fraud, and money laundering. Documents required: identity proof (Aadhaar, PAN) and address proof. KYC needs periodic updating (every 2 years for high-risk, 8 years for low-risk accounts). Failure to complete KYC may result in account restrictions."
+  },
+  {
+    "instruction": "How do I register for internet banking?",
+    "input": "",
+    "output": "Register for internet banking online using your debit card details and registered mobile number, or visit your branch for a credentials kit. After initial login, set a new password and transaction password. Internet banking provides access to statements, fund transfers, bill payments, and other banking services."
+  },
+  {
+    "instruction": "How do I register a nominee on my account?",
+    "input": "",
+    "output": "To register a nominee: 1) Fill the nomination form (DA-1) at the branch or online. 2) Provide nominee name, relationship, address, and DOB. 3) For minors, appoint a guardian. 4) Nomination can be changed anytime. Having a nominee simplifies claiming account proceeds and is strongly recommended for all accounts."
+  },
+  {
+    "instruction": "How do I change my account type?",
+    "input": "",
+    "output": "To change account type (e.g., regular to salary): 1) Visit home branch with a written request. 2) Provide any additional documents. 3) Change takes 3-5 working days. 4) Account number may or may not change. 5) Existing mandates will transfer. Note that downgrading from a premium account may result in loss of certain benefits."
+  },
+  {
+    "instruction": "What is the difference between savings and current account?",
+    "input": "",
+    "output": "Savings accounts are for individuals to save money and earn interest (3-4% p.a.) with limited transactions. Current accounts are for businesses with unlimited transactions but no interest. Current accounts require higher minimum balance (Rs. 10,000-25,000). Savings accounts come with debit cards; current accounts offer overdraft facilities."
+  },
+  {
+    "instruction": "What is a digital savings account?",
+    "input": "",
+    "output": "A digital savings account can be opened completely online without visiting a branch via video KYC. Features include virtual debit card issued immediately, full banking through app, often lower/zero minimum balance, and instant fund transfers. Physical debit card is delivered within a week. Requirements: Aadhaar, PAN, smartphone with camera."
+  },
+  {
+    "instruction": "What is the process for NRI account opening?",
+    "input": "",
+    "output": "NRIs can open NRE (Non-Resident External) or NRO (Non-Resident Ordinary) accounts. Required: passport, valid visa, overseas address proof, and photograph. NRE accounts are fully repatriable with tax-free interest. NRO accounts manage Indian income. Apply online through video KYC or at select branches."
+  },
+  {
+    "instruction": "Can I open a joint account? What are the operation modes?",
+    "input": "",
+    "output": "Yes, joint accounts support up to 4 holders. Operation modes: 1) Either or Survivor (E/S) - any holder operates independently. 2) Anyone or Survivor. 3) Former or Survivor - only first holder operates. 4) Jointly - all must sign. All holders share equal liability. KYC is required for all holders."
+  },
+  {
+    "instruction": "What are the benefits of a salary account?",
+    "input": "",
+    "output": "Salary account benefits: 1) Zero minimum balance. 2) Higher transaction limits. 3) Free or discounted services. 4) Pre-approved loan and credit card offers. 5) Complimentary insurance. 6) Priority service. If you leave the employer, the account converts to a regular savings account after 3 months with applicable minimum balance."
+  },
+  {
+    "instruction": "How do I transfer funds between my own accounts?",
+    "input": "",
+    "output": "Transfer between own accounts within the same bank via internet banking (fund transfer option) or mobile app. Transfers are instant and usually free. For transfers to other banks, use NEFT, RTGS, or IMPS. You can also set up standing instructions for recurring self-transfers."
+  },
+  {
+    "instruction": "What is a passbook and how do I get it updated?",
+    "input": "",
+    "output": "A passbook is a physical record of all transactions. Update it by visiting any branch or using a passbook printing kiosk. Updates are free. Some banks have replaced passbooks with e-statements. If your passbook is full or lost, visit the branch for a new one (charges may apply for replacement)."
+  },
+  {
+    "instruction": "How do I get a duplicate passbook or statement?",
+    "input": "",
+    "output": "For a duplicate passbook: visit your branch with ID proof and a written request (charges Rs. 50-100). For statements: download from internet banking (free), request at branch (charges may apply for physical copies), or register for email statements (free monthly). Stamped statements for official purposes can be obtained from the branch."
+  },
+  {
+    "instruction": "How do I reactivate a dormant account?",
+    "input": "",
+    "output": "An account becomes dormant after 24 months of no customer-initiated transactions. To reactivate: 1) Visit home branch with KYC documents. 2) Submit a reactivation request. 3) Complete in-person verification. 4) Make a small transaction. Takes 1-2 working days. No charges for reactivation. Update your contact details during the process."
+  },
+  {
+    "instruction": "How do I get my bank account frozen or unfrozen?",
+    "input": "",
+    "output": "Freezing can be self-requested at the branch, imposed by bank for KYC non-compliance, by court order, or by IT department. To unfreeze: submit required documents addressing the reason. Self-imposed freeze can be removed by visiting the branch with ID proof. Frozen accounts allow credits but restrict debits."
+  },
+  {
+    "instruction": "What are the benefits of senior citizen accounts?",
+    "input": "",
+    "output": "Senior citizen (60+) benefits: 1) Higher FD rates (0.25-0.75% extra). 2) Higher TDS threshold (Rs. 50,000). 3) Priority banking. 4) Lower minimum balance. 5) Special schemes like SCSS at ~8.2%. 6) Higher insurance covers. 7) Doorstep banking for super-seniors (80+). Submit age proof to avail."
+  },
+  {
+    "instruction": "What is the Pradhan Mantri Jan Dhan Yojana?",
+    "input": "",
+    "output": "PMJDY offers: 1) Zero-balance savings account with RuPay debit card. 2) Accident insurance cover of Rs. 2 lakh. 3) Overdraft facility up to Rs. 10,000 (after 6 months). 4) Life insurance cover of Rs. 30,000 (for accounts opened before Jan 2015). Any Indian citizen above 10 years can open a PMJDY account with Aadhaar."
+  },
+  {
+    "instruction": "How do I update my PAN details in my bank account?",
+    "input": "",
+    "output": "Visit your branch with original PAN card and a photocopy. Fill the PAN update form. Update reflects within 2-3 working days. PAN is mandatory for transactions above Rs. 50,000 and FD opening. Without PAN linkage, TDS is deducted at 20% instead of 10%."
+  },
+  {
+    "instruction": "What is the overdraft facility?",
+    "input": "",
+    "output": "An overdraft facility lets you withdraw more than your available balance up to a pre-approved limit. Available on savings and current accounts against fixed deposits, securities, or salary. Interest is charged only on the utilized amount. Limits and interest rates depend on your relationship and collateral value."
+  },
+  {
+    "instruction": "What are the timings of the bank?",
+    "input": "",
+    "output": "Standard hours: 10:00 AM to 4:00 PM weekdays, 10:00 AM to 1:00 PM Saturdays. Closed on Sundays and holidays. ATMs and digital banking (mobile app, internet banking) are available 24x7. Some metro branches may have extended hours. Check the branch locator on our website for exact timings."
+  },
+  {
+    "instruction": "What are the charges for NEFT transactions?",
+    "input": "",
+    "output": "NEFT transactions are free for savings account holders through online channels (internet/mobile banking) as per RBI guidelines. Branch-initiated NEFT may attract nominal charges from Rs. 2 to Rs. 25 depending on the transaction amount. NEFT operates in half-hourly batches."
+  },
+  {
+    "instruction": "What is IMPS and how does it work?",
+    "input": "",
+    "output": "IMPS (Immediate Payment Service) enables real-time interbank fund transfers 24x7 including holidays. Transfer up to Rs. 5 lakh per transaction via mobile or internet banking. Requires beneficiary account number and IFSC code, or MMID and mobile number. Small charges may apply (Rs. 5 to Rs. 15)."
+  },
+  {
+    "instruction": "What is UPI and how do I set it up?",
+    "input": "",
+    "output": "UPI (Unified Payments Interface) allows instant bank-to-bank transfers using a UPI ID. Setup: 1) Download a UPI app (BHIM, Google Pay, PhonePe, or bank app). 2) Register with bank-linked mobile number. 3) Link bank account. 4) Set UPI PIN using debit card details. Transaction limit is Rs. 1 lakh per transaction for most banks."
+  },
+  {
+    "instruction": "What is RTGS and what are the timings?",
+    "input": "",
+    "output": "RTGS (Real Time Gross Settlement) is for high-value fund transfers (minimum Rs. 2 lakh, no upper limit). Available 24x7 online. Branch timings are 9 AM to 4:30 PM on working days. Online RTGS is free for savings accounts per RBI mandate. Fastest way to transfer large amounts between banks."
+  },
+  {
+    "instruction": "Can I link multiple bank accounts to UPI?",
+    "input": "",
+    "output": "Yes, you can link multiple bank accounts to a single UPI app. Each account gets a separate UPI ID. Set one as default for payments. The Rs. 1 lakh per transaction limit applies per bank account. Manage UPI PINs securely for each linked account."
+  },
+  {
+    "instruction": "What is the NACH mandate and how does it work?",
+    "input": "",
+    "output": "NACH (National Automated Clearing House) enables recurring electronic payments like EMIs, insurance premiums, and SIPs. Authorize deduction by submitting a mandate form with account details, amount, frequency, and validity. The system auto-debits on the specified date. Mandates can be cancelled or modified through your bank."
+  },
+  {
+    "instruction": "What is a standing instruction on my account?",
+    "input": "",
+    "output": "A standing instruction (SI) is a pre-set automatic payment at regular intervals for recurring payments like rent, utility bills, or insurance premiums. Set up at the branch or through internet/mobile banking by specifying amount, payee, frequency, and duration. SIs can be modified or cancelled anytime before the next execution date."
+  },
+  {
+    "instruction": "What is the process for getting a demand draft?",
+    "input": "",
+    "output": "Visit your branch with a filled DD application form specifying payee name, amount, and destination city. DDs can be issued from your account or by cash (up to Rs. 50,000). Charges vary from Rs. 25 to Rs. 100 depending on amount. Internet banking customers can request DDs online for delivery to their address."
+  },
+  {
+    "instruction": "What are the penalties for bounced cheques?",
+    "input": "",
+    "output": "Bounced cheque charges: Rs. 300-750 per instance. Under the Negotiable Instruments Act (Section 138), issuing a bounced cheque is a criminal offense punishable with up to 2 years imprisonment and/or a fine up to twice the cheque amount. Always ensure sufficient balance before issuing cheques."
+  },
+  {
+    "instruction": "How do I request a cheque stop payment?",
+    "input": "",
+    "output": "To request stop payment: contact customer care, visit branch, or use internet/mobile banking. Provide cheque number, amount, date, and payee name. Charges of Rs. 50-100 per cheque may apply. Valid for 1 year or until cheque validity. Cannot be done after the cheque has been presented for clearing."
+  },
+  {
+    "instruction": "What is the process for cheque clearance?",
+    "input": "",
+    "output": "Cheque clearance: 1) Deposit at branch or drop box. 2) CTS processes electronically. 3) Local cheques clear within 1 business day, outstation 2-3 days. 4) Speed clearing enables faster processing. 5) If bounced, you're notified with the reason. Always verify cheque details before depositing."
+  },
+  {
+    "instruction": "What are the different types of cheque books?",
+    "input": "",
+    "output": "Types: 1) Bearer cheque - payable to anyone presenting it. 2) Order cheque - payable only to named person. 3) Crossed cheque - can only be deposited. 4) Account payee cheque - credited only to payee's account. 5) Post-dated cheque - valid from future date. CTS-2010 standard is used across India. Cheque books usually issued free (20-25 leaves/quarter)."
+  },
+  {
+    "instruction": "What is the maximum limit for cash deposit?",
+    "input": "",
+    "output": "PAN required for deposits of Rs. 50,000+ in a single day. Deposits above Rs. 10 lakh in a financial year are reported to Income Tax department. Cash deposit machines accept up to Rs. 49,900 per transaction. Deposits above Rs. 2 lakh in savings accounts attract inquiry. Always maintain documentation for large deposits."
+  },
+  {
+    "instruction": "How do I convert my foreign currency at the bank?",
+    "input": "",
+    "output": "Visit any authorized dealer branch with valid ID and passport. Currency buy rates are displayed daily. For amounts above $5,000, an encashment certificate is issued. Coins are generally not accepted. You can also buy foreign currency or load a forex card with proper documentation (passport, visa, tickets)."
+  },
+  {
+    "instruction": "What are the charges for international ATM withdrawals?",
+    "input": "",
+    "output": "International ATM charges: Bank charges Rs. 125-200 per withdrawal plus 3-3.5% markup on exchange rate. Overseas ATM operator fee ($2-5). GST of 18% on bank charges. Daily limit $500-1000 equivalent. Enable international transactions through the app before travel. Consider a forex card for better rates."
+  },
+  {
+    "instruction": "What is the Liberalized Remittance Scheme?",
+    "input": "",
+    "output": "LRS allows resident Indians to remit up to $250,000 per financial year for education, medical treatment, travel, gifts, investment abroad, and maintenance of relatives. Submit Form A2 with supporting documents. TCS of 5-20% applies on remittances above Rs. 7 lakh. PAN is mandatory. Not available for forex trading."
+  },
+  {
+    "instruction": "What is a Letter of Credit?",
+    "input": "",
+    "output": "A Letter of Credit (LC) is a bank's guarantee for trade transactions. Types include sight LC, usance LC, revolving LC, and standby LC. Charges are 0.5-2% of the LC amount. Required documents: purchase order, proforma invoice, and trade agreements. LCs reduce risk for both buyer and seller in trade. Visit our trade finance department for assistance."
+  },
+  {
+    "instruction": "How can I get a bank guarantee?",
+    "input": "",
+    "output": "A bank guarantee (BG) is a commitment to pay if the applicant fails contractual obligations. Types: performance, financial, and bid bond. Provide collateral (FD, property, or cash margin of 10-25%). Charges are 1-3% per annum. Processing takes 3-7 working days. Commonly required for government contracts and tenders."
+  },
+  {
+    "instruction": "What is the balance enquiry process at ATM?",
+    "input": "",
+    "output": "Insert card, enter PIN, select Balance Enquiry. Own bank ATMs: usually free. Other bank ATMs: free for 3-5 transactions/month (metro) or 5 (non-metro) - balance enquiry counts as one transaction. Beyond free limit: Rs. 20-21 per enquiry. Use mobile banking for unlimited free balance checks."
+  },
+  {
+    "instruction": "How do I raise a complaint about ATM transaction failure?",
+    "input": "",
+    "output": "For ATM failures (debited but not dispensed): 1) Wait - auto-reversal happens within 5 business days per RBI mandate. 2) If no reversal, contact customer care with transaction details. 3) Register complaint through app or branch. 4) Bank must resolve within 5 working days or credit provisional amount. Keep the transaction slip if available."
+  },
+  {
+    "instruction": "How do I apply for a credit card?",
+    "input": "",
+    "output": "Apply through website/app or at a branch. Eligibility: 21+ years, stable income (min Rs. 2.5 lakh p.a.), good credit score. Documents: identity proof, address proof, income proof. Pre-approved offers may be available for existing customers. Processing takes 7-10 working days."
+  },
+  {
+    "instruction": "What should I do if I lose my debit card?",
+    "input": "",
+    "output": "Immediately block the card by calling our 24x7 helpline, using the mobile app, or sending an SMS. This prevents unauthorized transactions. Request a replacement card (delivered within 5-7 working days). File a police complaint if you suspect theft. Monitor transactions and report any unauthorized activity."
+  },
+  {
+    "instruction": "How do I activate my new debit card?",
+    "input": "",
+    "output": "Activate via: 1) Any ATM by entering the PIN from the sealed envelope. 2) Net banking or mobile banking. 3) Activation helpline. Change the default PIN immediately for security. Set transaction limits through the app. Enable/disable international usage as needed. Card is valid for 5 years."
+  },
+  {
+    "instruction": "How do I change my ATM PIN?",
+    "input": "",
+    "output": "Change ATM PIN via: 1) Any bank ATM - Change PIN option. 2) Mobile banking app under card management. 3) Internet banking under debit card services. 4) Customer care helpline. Change your PIN regularly, avoid guessable combinations, never share your PIN. If forgotten, generate a new one through the app or at branch."
+  },
+  {
+    "instruction": "Can I increase my credit card limit?",
+    "input": "",
+    "output": "Limit enhancement can be: 1) Automatic - bank reviews your pattern every 6-12 months. 2) On request - apply through app, net banking, or customer care. Approval depends on credit score, income, utilization, and repayment track record. Submit updated income proof for permanent increase. Temporary enhancement available for travel/large purchases."
+  },
+  {
+    "instruction": "How do I dispute a credit card charge?",
+    "input": "",
+    "output": "To dispute: 1) Contact customer care within 60 days. 2) Provide transaction details and reason. 3) Bank issues provisional credit and investigates (within 90 days). 4) If valid, credit becomes permanent. Common reasons: duplicate charges, unauthorized transactions, undelivered goods. Keep receipts as evidence."
+  },
+  {
+    "instruction": "Can I withdraw cash from a credit card?",
+    "input": "",
+    "output": "Yes, but it's expensive: 1) Cash advance fee of 2.5-3% (min Rs. 300-500). 2) Interest from day of withdrawal (no interest-free period) at 2.5-3.5% per month. 3) Cash limit is 20-40% of credit limit. Use only as emergency option. A personal loan or overdraft facility is much cheaper."
+  },
+  {
+    "instruction": "How do I set transaction limits on my debit card?",
+    "input": "",
+    "output": "Set limits via: 1) Mobile app - Card Management. 2) Internet banking - Debit Card Services. 3) Customer care. You can set separate daily limits for ATM withdrawal, POS, and online transactions. Reducing limits when not in use is a good security practice. Limits can be increased temporarily for large purchases."
+  },
+  {
+    "instruction": "How do I enable or disable international transactions on my card?",
+    "input": "",
+    "output": "Enable/disable via: 1) Mobile app - Card Management. 2) Internet banking. 3) Customer care. International transactions are disabled by default for security. Enable only when needed and disable after use. Separate controls available for POS, online, and ATM. Daily limits can also be set for international usage."
+  },
+  {
+    "instruction": "How secure is mobile banking?",
+    "input": "",
+    "output": "Security features: multi-factor authentication, end-to-end encryption, session timeout, device binding, transaction limits. Best practices: use only official app, avoid public WiFi, enable app lock, keep OS updated, never share OTP/MPIN, log out after each session, enable transaction SMS alerts. Report suspicious activity immediately."
+  },
+  {
+    "instruction": "What is a demat account and do I need one?",
+    "input": "",
+    "output": "A Demat account holds shares and securities electronically. Needed for investing in stocks, mutual funds (demat form), bonds, or government securities. Requires KYC documents and is linked to a trading account. Annual maintenance charges Rs. 200-800. We offer 3-in-1 accounts combining savings, demat, and trading."
+  },
+  {
+    "instruction": "How do I set up a SIP through my bank?",
+    "input": "",
+    "output": "To set up a SIP: 1) Choose a mutual fund scheme through our portal or branch. 2) Complete KYC. 3) Set amount (min Rs. 500), date, and duration. 4) Submit NACH mandate for auto-debit. SIPs help disciplined investing through rupee cost averaging. You can pause, increase, decrease, or stop anytime."
+  },
+  {
+    "instruction": "What is the Atal Pension Yojana?",
+    "input": "",
+    "output": "APY is a government pension scheme for the unorganized sector. Available for ages 18-40. Choose guaranteed monthly pension of Rs. 1,000 to Rs. 5,000 after age 60. Contribution varies by age and chosen pension. Tax benefits under Section 80CCD. Spouse receives same pension after subscriber's death. Enroll at any bank branch."
+  },
+  {
+    "instruction": "What is the Sukanya Samriddhi Yojana?",
+    "input": "",
+    "output": "SSY is a savings scheme for the girl child (below 10 years). Current interest rate ~8.2% (among highest for government schemes). Min deposit Rs. 250, max Rs. 1.5 lakh annually. EEE tax status under Section 80C. Account matures at 21 years. Partial withdrawal (50%) allowed after age 18 for education. Open at any bank or post office."
+  },
+  {
+    "instruction": "What government schemes are available through banking?",
+    "input": "",
+    "output": "Key schemes: 1) PM Jan Dhan Yojana - zero balance account. 2) Atal Pension Yojana. 3) PM Jeevan Jyoti Bima - life insurance at Rs. 436/year. 4) PM Suraksha Bima - accident insurance at Rs. 20/year. 5) Sukanya Samriddhi. 6) PM Mudra Yojana. 7) Stand-Up India for SC/ST/women entrepreneurs. Ask at your branch for details."
+  },
+  {
+    "instruction": "How do I transfer my PPF account to another bank?",
+    "input": "",
+    "output": "Submit a transfer application at your current bank/post office. Specify the new branch. Current bank sends PPF records to the new branch, which opens the transferred account. Process takes 2-4 weeks with no charges. Account continuity and tax benefits are maintained. PPF can transfer between banks and post offices without penalty."
+  },
+  {
+    "instruction": "What is the process for availing crop insurance?",
+    "input": "",
+    "output": "PMFBY provides crop insurance: mandatory for loanee farmers, voluntary for non-loanee. Premium: 2% for Kharif, 1.5% for Rabi, 5% for commercial crops. Apply at bank branch or PMFBY portal before sowing deadline. Documents: land records, sowing certificate, bank account, Aadhaar. Claims settled based on crop cutting experiments."
+  },
+  {
+    "instruction": "What is the bank reconciliation statement?",
+    "input": "",
+    "output": "A BRS reconciles differences between your records and the bank statement. Differences arise from: cheques issued but not presented, deposits in transit, bank charges not yet recorded. Compare your cash book with bank statement, identify discrepancies, and adjust. Important for businesses to ensure accurate financial records. Prepare monthly."
+  },
+  {
+    "instruction": "How do I file a complaint about unauthorized transactions?",
+    "input": "",
+    "output": "To report: 1) Block your card immediately via app, SMS, or helpline. 2) Contact customer care and register a complaint. 3) Visit branch and submit written complaint. 4) File with cyber cell if needed. Per RBI guidelines, if reported within 3 days, your liability is Rs. 0 for bank-side fraud. Bank must resolve within 90 days."
+  },
+  {
+    "instruction": "How do I report a phishing attempt?",
+    "input": "",
+    "output": "If you receive suspicious communication: 1) Do NOT click links or share OTP, PIN, or password. 2) Report to our fraud helpline. 3) Forward phishing emails to our reporting email. 4) Block the sender. 5) If you shared details, change passwords and block cards immediately. The bank will NEVER ask for PIN, OTP, or CVV via phone, email, or SMS."
+  },
+  {
+    "instruction": "What is a credit score and why is it important?",
+    "input": "",
+    "output": "A credit score (300-900) represents your creditworthiness, calculated by bureaus like CIBIL, Experian, or CRIF. A score above 750 is good. It impacts loan approval, interest rates, and credit limits. Maintain it by paying bills on time, keeping credit utilization below 30%, and avoiding multiple simultaneous loan applications."
+  },
+  {
+    "instruction": "What's the process for getting a CIBIL report?",
+    "input": "",
+    "output": "Get your CIBIL report: 1) Free annual report from cibil.com with PAN. 2) Some banks provide free score through net banking. 3) Third-party apps also provide free scores. The report contains credit score, account details, enquiry history, and payment record. Check regularly for errors and dispute inaccuracies online. 750+ is good."
+  },
+  {
+    "instruction": "What is the grievance redressal mechanism?",
+    "input": "",
+    "output": "Structured process: Level 1 - Contact customer care/branch (7 days). Level 2 - Escalate to Nodal Officer (15 days). Level 3 - Banking Ombudsman via RBI CMS portal (if unresolved after 30 days). All complaints receive a unique reference number. We are committed to fair and transparent resolution."
+  },
+  {
+    "instruction": "How do I submit a complaint to the Banking Ombudsman?",
+    "input": "",
+    "output": "First exhaust bank's internal mechanism (wait 30 days). File online at rbi.org.in or CMS portal (cms.rbi.org.in). Include complaint details, bank responses, and documents. Ombudsman resolves within 30 days. Awards up to Rs. 20 lakh. Service is free. Must file within 1 year of bank's final response."
+  },
+  {
+    "instruction": "What are the fees for a locker facility?",
+    "input": "",
+    "output": "Annual charges: Small Rs. 1,500-3,000, Medium Rs. 3,000-6,000, Large Rs. 6,000-12,000. Refundable security deposit (3 years rent) required. Access during banking hours. Nomination facility available. Bank is responsible for due diligence in protecting the locker. Charges vary by branch location."
+  },
+  {
+    "instruction": "How can I link my Aadhaar with my PAN?",
+    "input": "",
+    "output": "While primarily done through the Income Tax portal, banks assist with ensuring both are correctly linked to your account. For linking: visit incometax.gov.in or SMS UIDPAN followed by Aadhaar and PAN to 567678. This is mandatory; unlinked PANs become inoperative, affecting high-value banking transactions."
+  },
+  {
+    "instruction": "How do I change my account password or credentials?",
+    "input": "",
+    "output": "To change internet banking password: 1) Login and go to Profile/Settings. 2) Select Change Password. 3) Enter old password and new password. For forgotten password: use Forgot Password option with debit card details, or visit branch. Change passwords every 90 days. Use strong passwords combining letters, numbers, and symbols. Never share credentials."
+  },
+  {
+    "instruction": "What should I do if I suspect my account is compromised?",
+    "input": "",
+    "output": "If you suspect compromise: 1) Change all passwords immediately. 2) Block debit/credit cards via app or helpline. 3) Check recent transactions for unauthorized activity. 4) Contact customer care to report and freeze the account temporarily. 5) File a complaint at the branch. 6) Lodge a police/cyber cell complaint. 7) Monitor your account closely for the next few weeks."
+  },
+  {
+    "instruction": "What is two-factor authentication in banking?",
+    "input": "",
+    "output": "Two-factor authentication (2FA) adds a second layer of security beyond your password. In banking, this typically means: 1) Something you know (password/PIN). 2) Something you have (OTP on registered mobile). For online transactions, 2FA is mandatory per RBI guidelines. Never share OTPs. Enable biometric authentication (fingerprint/face) on your banking app for added security."
+  },
+  {
+    "instruction": "Are my deposits safe if the bank faces financial trouble?",
+    "input": "",
+    "output": "DICGC (a subsidiary of RBI) insures deposits up to Rs. 5 lakh per depositor per bank. This covers all types of deposits. For amounts exceeding Rs. 5 lakh, consider diversifying across multiple banks. RBI closely monitors banks' financial health. Look for banks with good credit ratings and stable financials for large deposits."
+  },
+  {
+    "instruction": "What is the process for reporting a cyber fraud?",
+    "input": "",
+    "output": "Report cyber fraud: 1) Call the national cyber helpline 1930 immediately. 2) File a complaint on cybercrime.gov.in. 3) Inform your bank to freeze the account/card. 4) Lodge an FIR at the nearest police station. 5) Preserve all evidence (screenshots, messages). Quick reporting increases the chance of recovering funds. Time is critical."
+  },
+  {
+    "instruction": "What are the RBI guidelines on customer liability for fraud?",
+    "input": "",
+    "output": "As per RBI: 1) Bank/third-party fraud - zero customer liability if reported within 3 days. 2) Customer negligence (sharing OTP/PIN) - customer bears the loss. 3) Reported within 4-7 days - limited customer liability based on account type. 4) Beyond 7 days - bank policy applies. 5) Bank must credit any unauthorized refund amount within 10 working days of complaint."
+  },
+  {
+    "instruction": "What is money laundering and how does the bank prevent it?",
+    "input": "",
+    "output": "Money laundering is the process of making illegally obtained money appear legitimate. Banks prevent it through: 1) KYC verification for all accounts. 2) Transaction monitoring systems for suspicious activity. 3) Reporting to FIU (Financial Intelligence Unit) for large/unusual transactions. 4) PMLA compliance. 5) Staff training. Customers must cooperate with KYC updates and source-of-funds documentation."
+  },
+  {
+    "instruction": "What insurance products do you offer?",
+    "input": "",
+    "output": "We offer: 1) Term Life Insurance. 2) Health Insurance covering hospitalization. 3) Motor Insurance for vehicles. 4) Home Insurance for property. 5) Travel Insurance for domestic and international. Each has different plans and premium options. Contact our insurance desk or visit our website for detailed information and quotes."
+  },
+  {
+    "instruction": "What is the claim settlement process for life insurance?",
+    "input": "",
+    "output": "For life insurance claims: 1) Notify insurer within 30 days. 2) Submit claim form with death certificate, policy document, ID of nominee, and medical records. 3) Insurer verifies and may investigate. 4) Settlement processed within 30 days of receiving all documents. Contact our claims helpline for assistance."
+  },
+  {
+    "instruction": "What is a health insurance policy and what does it cover?",
+    "input": "",
+    "output": "Health insurance covers hospitalization and medical expenses: in-patient hospitalization (24+ hours), pre/post-hospitalization, day-care procedures, ambulance charges. Exclusions: pre-existing diseases (2-4 year waiting), cosmetic surgery, dental (unless accidental). Tax benefit under Section 80D: Rs. 25,000 (Rs. 50,000 for seniors)."
+  },
+  {
+    "instruction": "What is the difference between term insurance and endowment plan?",
+    "input": "",
+    "output": "Term insurance provides pure life cover at low premiums with no maturity benefit - pays only on death. Endowment plans combine insurance with savings, offering both death and maturity benefits at higher premiums. For most people, term insurance plus separate investments is recommended for maximum coverage at minimum cost."
+  },
+  {
+    "instruction": "How do I renew my insurance policy?",
+    "input": "",
+    "output": "Renew your policy before the due date through: 1) Online via insurer's website or our banking portal. 2) Auto-debit from bank account (if mandate set). 3) Visit branch. A grace period of 15-30 days is usually allowed. Lapsed policies may require fresh medical tests and higher premiums. Keep your contact details updated to receive renewal reminders."
+  },
+  {
+    "instruction": "What is the waiting period in health insurance?",
+    "input": "",
+    "output": "Health insurance waiting periods: 1) Initial waiting period: 30 days (no claim except accidents). 2) Pre-existing diseases: 2-4 years before coverage. 3) Specific diseases (hernia, cataract, etc.): 1-2 years. 4) Maternity: 2-4 years. Waiting periods vary by insurer and plan. Compare plans carefully before purchasing. Some plans offer reduced waiting periods at higher premiums."
+  },
+  {
+    "instruction": "Can I port my insurance policy to another insurer?",
+    "input": "",
+    "output": "Yes, insurance portability allows you to switch insurers while retaining benefits. Process: 1) Apply to the new insurer 45 days before policy renewal. 2) Continuous coverage credit (waiting periods served) is transferred. 3) No-claim bonus may be transferred. 4) Sum insured cannot decrease during porting. Compare benefits before porting as coverage terms may differ between insurers."
+  },
+  {
+    "instruction": "What is a no-claim bonus in insurance?",
+    "input": "",
+    "output": "No-Claim Bonus (NCB) is a reward for not making any claims during a policy year. In health insurance, it typically increases your sum insured by 5-50% each claim-free year. In motor insurance, it provides a premium discount of 20-50%. NCB is cumulative and can be significant over years. Some insurers offer NCB protection add-ons to preserve your bonus even after a claim."
+  },
+  {
+    "instruction": "What documents are needed for an insurance claim?",
+    "input": "",
+    "output": "General documents: policy document, claim form, claimant's ID proof. Health claims: hospital bills, discharge summary, medical records, diagnostic reports. Life insurance: death certificate, nominee's ID, FIR (if accidental). Motor: FIR (theft/accident), repair estimates, photographs of damage. Submit within the timeframe specified in your policy. Keep copies of all documents."
+  },
+  {
+    "instruction": "How long does it take to settle an insurance claim?",
+    "input": "",
+    "output": "Typical timelines: Cashless health claims - approval within 2-4 hours, reimbursement claims: 15-30 days after document submission. Life insurance: 30 days. Motor: 7-30 days depending on complexity. IRDAI mandates settlement within 30 days of receiving complete documents. Delays usually occur due to incomplete documentation or investigation requirements."
+  },
+  {
+    "instruction": "What is the process for getting a bank statement for visa application?",
+    "input": "",
+    "output": "For visa applications: 1) Visit your branch and request a stamped bank statement for the last 6 months (some embassies require 3-12 months). 2) It should show sufficient balance and regular income credits. 3) Some branches offer attested statements on the same day. 4) Charges of Rs. 100-300 may apply for stamped statements. 5) Internet banking statements may not be accepted; verify embassy requirements."
+  },
+  {
+    "instruction": "How do I set up email or SMS alerts for my account?",
+    "input": "",
+    "output": "Set up alerts via: 1) Internet banking - go to Alerts/Notifications section. 2) Mobile app - Settings > Notifications. 3) Branch visit with a request form. Alert types include: transaction alerts (debit/credit above threshold), balance alerts, login alerts, and EMI due reminders. SMS alerts are often auto-enabled. Email alerts provide transaction details without charge."
+  },
+  {
+    "instruction": "Can I get a loan for home renovation?",
+    "input": "",
+    "output": "Yes, options include: 1) Home improvement loan (separate product, 7-15 years tenure). 2) Top-up on existing home loan (easier if you have a running loan). 3) Personal loan (faster processing but higher rate). 4) Loan against property. Home improvement loans typically have interest rates of 8.5-11% and require property ownership documents and renovation estimates."
+  },
+  {
+    "instruction": "What is a sweep-in facility?",
+    "input": "",
+    "output": "A sweep-in (or flexi) facility automatically converts excess balance in your savings account into fixed deposits, earning higher FD interest rates. When your savings balance drops below a threshold, FDs are automatically broken to meet fund requirements. This combines the liquidity of savings with higher FD returns. Set a sweep threshold at your branch or through net banking."
+  },
+  {
+    "instruction": "How do I get a loan against property?",
+    "input": "",
+    "output": "Loan against property (LAP) allows borrowing against residential or commercial property. Key details: 1) Loan up to 60-70% of property value. 2) Interest rates 8-12% (lower than personal loans). 3) Tenure up to 15-20 years. 4) Can be used for any purpose (business, education, medical). Documents: property papers, income proof, KYC. Property valuation and legal verification required."
+  },
+  {
+    "instruction": "What is the difference between a microfinance loan and a regular loan?",
+    "input": "",
+    "output": "Microfinance loans are small loans (typically Rs. 10,000-1,00,000) offered to low-income individuals, often without collateral. Key differences: 1) Group lending model with joint liability. 2) Higher interest rates (12-24%). 3) Weekly/bi-weekly repayments. 4) Minimal documentation. 5) Focused on financial inclusion. Regular loans have lower rates but stricter eligibility criteria and require more documentation."
+  },
+  {
+    "instruction": "How do I open a PPF account?",
+    "input": "",
+    "output": "Open a PPF (Public Provident Fund) account at any bank or post office. Requirements: 1) Indian resident. 2) PAN and Aadhaar. 3) Min annual deposit Rs. 500, max Rs. 1.5 lakh. 4) 15-year lock-in (extendable in 5-year blocks). 5) Current interest rate ~7.1%. 6) Tax benefits under Section 80C (EEE status). Partial withdrawal allowed from year 7. Loan against PPF available from year 3."
+  },
+  {
+    "instruction": "What is a certificate of deposit?",
+    "input": "",
+    "output": "A Certificate of Deposit (CD) is a negotiable money market instrument issued by banks for a fixed tenure. Key features: 1) Minimum Rs. 1 lakh (in multiples of Rs. 1 lakh). 2) Tenure: 7 days to 1 year (banks), up to 3 years (financial institutions). 3) Higher interest than savings. 4) Can be transferred through endorsement. 5) Issued in dematerialized form. Ideal for institutional investors seeking short-term, safe returns."
+  },
+  {
+    "instruction": "How do I apply for a working capital loan?",
+    "input": "",
+    "output": "Working capital loans fund day-to-day business operations. Process: 1) Submit business financials (3 years), GST returns, stock statement, debtors/creditors aging. 2) Options include cash credit, overdraft, and bill discounting. 3) Interest rates 10-16%. 4) Limits reviewed annually. 5) Collateral may be required (stock, receivables, property). 6) Turnover-based assessment determines the limit. Visit our MSME/business banking desk."
+  },
+  {
+    "instruction": "What is the SARFAESI Act?",
+    "input": "",
+    "output": "The SARFAESI Act (2002) allows banks to recover NPAs by taking possession of secured assets without court intervention. It applies to loans above Rs. 1 lakh. Process: 1) Bank sends 60-day notice to defaulter. 2) If unpaid, bank can take possession, manage, or sell the secured asset. 3) Borrower can appeal to DRT within 45 days. This applies only to secured loans and not agricultural land."
+  },
+  {
+    "instruction": "What is priority sector lending?",
+    "input": "",
+    "output": "Priority Sector Lending (PSL) requires banks to allocate a portion of lending to sectors like agriculture (18%), MSME, education, housing, and weaker sections. As per RBI, banks must lend 40% of adjusted net bank credit to priority sectors. This ensures credit flow to vital sectors of the economy. Shortfalls must be deposited with NABARD/SIDBI funds."
+  },
+  {
+    "instruction": "How do I file income tax returns using my bank statement?",
+    "input": "",
+    "output": "Bank statements help in ITR filing by providing: 1) Interest income details (savings + FD). 2) Proof of investments (SIP, insurance premiums). 3) Rent receipts verification. 4) Form 26AS available through net banking shows TDS details. Download annual statements from internet banking. Banks also provide Form 16A for TDS on interest. Consult a CA for complex filings."
+  },
+  {
+    "instruction": "What is the grace period for credit card payment?",
+    "input": "",
+    "output": "Credit cards typically offer a grace period of 18-50 days from the transaction date to the payment due date. If you pay the full outstanding amount by the due date, no interest is charged. Paying only the minimum due (usually 5% of outstanding or Rs. 200, whichever is higher) avoids late fees but interest is charged on the remaining balance at 2-3.5% per month."
+  },
+  {
+    "instruction": "What is a balance transfer on a credit card?",
+    "input": "",
+    "output": "A credit card balance transfer moves your outstanding balance from one credit card to another offering a lower interest rate (often 0-2% for a promotional period of 3-6 months). Processing fee of 1-3% applies. This helps reduce interest costs on existing balances. After the promotional period, standard rates apply. Compare offers carefully before transferring."
+  },
+  {
+    "instruction": "How do I apply for a cheque book?",
+    "input": "",
+    "output": "Request a cheque book via: 1) Internet banking - under 'Service Requests'. 2) Mobile app. 3) ATM - select Cheque Book Request. 4) Branch visit with a written request. 5) SMS request from registered number. Usually delivered within 5-7 working days. First cheque book is typically free; additional books may have charges. CTS-2010 standard is used."
+  },
+  {
+    "instruction": "What is the process for getting a bank loan for agriculture?",
+    "input": "",
+    "output": "Agricultural loans include Kisan Credit Card (KCC), crop loans, and farm mechanization loans. Process: 1) Visit the branch with land ownership documents, identity proof, and cultivation records. 2) KCC provides revolving credit for crop needs. 3) Interest rates are subsidized (typically 7% with 3% interest subvention for prompt repayment). 4) Insurance under PMFBY is linked. Apply at any bank with agricultural lending."
+  },
+  {
+    "instruction": "Can I get a personal loan for medical emergencies?",
+    "input": "",
+    "output": "Yes, banks offer personal loans for medical emergencies with quick disbursement (sometimes within hours for existing customers). Alternatively, you can: 1) Get a loan against FD or gold for quick funds. 2) Use health insurance cashless facility. 3) Some banks offer specific medical loans at lower rates. 4) Salary advance facility. Keep emergency fund details and insurance handy to expedite the process."
+  },
+  {
+    "instruction": "What is the process to get a housing loan for under-construction property?",
+    "input": "",
+    "output": "For under-construction property loans: 1) Submit property documents, builder agreement, approved building plan, and NOCs. 2) Bank verifies the builder's track record and RERA registration. 3) Loan is disbursed in tranches linked to construction stages. 4) You pay pre-EMI (only interest) during construction. 5) Full EMI starts after final disbursement. LTV ratio is typically 75-90% of agreement value."
+  },
+  {
+    "instruction": "What are the different types of bank accounts available?",
+    "input": "",
+    "output": "Main account types: 1) Savings Account - for personal savings with interest. 2) Current Account - for business, unlimited transactions. 3) Fixed Deposit - lump sum for fixed tenure. 4) Recurring Deposit - monthly savings. 5) NRE/NRO - for NRIs. 6) Salary Account - employer-linked. 7) Basic Savings (BSBD) - for financial inclusion. 8) Flexi Deposit - combination of savings and FD. Choose based on your needs."
+  },
+  {
+    "instruction": "How do I calculate interest on my savings account?",
+    "input": "",
+    "output": "Savings account interest is calculated on the daily closing balance. The annual rate (typically 2.5-4%) is applied daily as: Daily Interest = (Closing Balance x Annual Rate) / 365. Interest is credited quarterly (March, June, September, December). Interest up to Rs. 10,000 per year is tax-free under Section 80TTA (Rs. 50,000 for seniors under 80TTB)."
+  },
+  {
+    "instruction": "What is the difference between a debit card and credit card?",
+    "input": "",
+    "output": "Debit card draws directly from your bank account balance - you can only spend what you have. Credit card is a line of credit from the bank - you borrow money and repay later. Key differences: 1) Debit has no interest; credit charges interest if not paid in full. 2) Credit cards offer rewards and cashback. 3) Credit cards build credit history. 4) Debit cards have no annual fees usually; credit cards may have fees."
+  },
+  {
+    "instruction": "What is an EMI moratorium and when is it available?",
+    "input": "",
+    "output": "An EMI moratorium is a temporary pause on loan repayments during financial stress. Key points: 1) It was widely offered during COVID-19 under RBI guidelines. 2) Interest continues to accrue during moratorium. 3) Total interest cost increases as the unpaid interest gets added to principal. 4) Available at the banks discretion during major disruptions. 5) Not an EMI waiver - it is a deferment. Contact your bank early if facing financial difficulties."
+  },
+  {
+    "instruction": "How does compound interest work on FDs?",
+    "input": "",
+    "output": "FD interest can be simple or compounded. In cumulative FDs, interest is compounded quarterly. Formula: A = P(1 + r/n)^(nt), where P = principal, r = annual rate, n = compounding frequency (4 for quarterly), t = years. For example, Rs. 1 lakh at 7% compounded quarterly for 5 years yields approximately Rs. 1,41,478. Non-cumulative FDs pay interest monthly/quarterly without compounding."
+  },
+  {
+    "instruction": "What is a co-applicant and why is one needed for a home loan?",
+    "input": "",
+    "output": "A co-applicant is a joint borrower on a home loan who shares the legal responsibility for repayment. Benefits: 1) Combines income to increase loan eligibility. 2) Co-owner gets tax benefits on interest and principal. 3) Better interest rates in some cases. 4) Required for joint property ownership. Typically, spouse, parents, or siblings can be co-applicants. Co-applicants credit score also matters for approval."
+  },
+  {
+    "instruction": "What is a pre-EMI and how does it differ from regular EMI?",
+    "input": "",
+    "output": "Pre-EMI is the interest-only payment made during the loan disbursement phase, common in under-construction property loans. Regular EMI includes both principal and interest. With pre-EMI, you pay only interest on the disbursed amount until full disbursement, after which regular EMI starts. Pre-EMI is lower than full EMI but does not reduce the principal. Some borrowers opt for full EMI from day one to start principal reduction early."
+  },
+  {
+    "instruction": "How do I check if a bank is RBI registered?",
+    "input": "",
+    "output": "Verify a banks RBI registration: 1) Check the RBI website (rbi.org.in) under the list of scheduled banks. 2) Look for the banks license number displayed at branches. 3) Check the Reserve Bank of India Act, 1934 schedule. 4) All legitimate banks display their RBI license at branches. 5) For NBFCs, check the NBFC registry on RBI website. Never deposit money with unregistered entities claiming to be banks."
+  },
+  {
+    "instruction": "What is a Systematic Withdrawal Plan?",
+    "input": "",
+    "output": "A Systematic Withdrawal Plan (SWP) allows you to withdraw a fixed amount regularly from your mutual fund investment. Its the reverse of SIP. Benefits: 1) Regular income from investments. 2) Capital appreciation on remaining amount. 3) Tax-efficient compared to FD interest. 4) Flexibility to change or stop withdrawals. Ideal for retirees or those needing regular income. Set up through your bank or mutual fund portal."
+  },
+  {
+    "instruction": "What is the difference between gross NPA and net NPA?",
+    "input": "",
+    "output": "Gross NPA is the total value of loans where repayment has been overdue for 90+ days, expressed as percentage of total advances. Net NPA = Gross NPA minus provisions made by the bank for bad loans. Net NPA shows the actual financial impact on the bank after accounting for loss buffers. Lower NPAs indicate better asset quality. RBI mandates banks to maintain adequate provisions against NPAs."
+  },
+  {
+    "instruction": "How do I get a succession certificate for a deceased account holder?",
+    "input": "",
+    "output": "If the deceased had a nominee, the nominee can claim with: death certificate, nominee ID, and claim form. Without a nominee: 1) For amounts under Rs. 1-2 lakh, banks may settle with an indemnity bond and affidavit. 2) For larger amounts, a succession certificate from civil court or legal heir certificate is required. 3) Submit the certificate with KYC of all legal heirs. Process varies by bank. Consult the branch manager for guidance."
+  },
+  {
+    "instruction": "What is the process for reverse mortgage loan?",
+    "input": "",
+    "output": "Reverse mortgage is for senior citizens (60+) to get regular income against their self-occupied residential property. Key features: 1) Bank pays you monthly/quarterly/lump sum. 2) No repayment during your lifetime. 3) Loan settled from property sale after both spouses pass. 4) Residual amount goes to heirs. 5) Tenure up to 20 years. 6) Property remains in your name. 7) Tax-free payments. Available at select banks. Contact for eligibility assessment."
+  },
+  {
+    "instruction": "What are treasury bills and how can I invest?",
+    "input": "",
+    "output": "Treasury Bills (T-Bills) are short-term government securities issued by RBI. Features: 1) Tenures: 91, 182, and 364 days. 2) Sold at a discount, redeemed at face value. 3) No interest payments - return is the discount. 4) Zero default risk (government-backed). 5) Minimum investment Rs. 25,000. 6) Available through RBI Retail Direct platform or through your bank. Ideal for parking surplus funds with sovereign safety."
+  },
+  {
+    "instruction": "How do I register for RBI Retail Direct?",
+    "input": "",
+    "output": "RBI Retail Direct allows individuals to invest directly in government securities. Registration: 1) Visit rbiretaildirect.org.in. 2) Complete KYC with PAN, Aadhaar, and bank account details. 3) Open a Gilt Securities Account (free, no maintenance charges). 4) Invest in G-Secs, T-Bills, SDLs, and Sovereign Gold Bonds. 5) Participate in primary auctions. This provides direct access to government securities without intermediaries or charges."
+  }
+]
