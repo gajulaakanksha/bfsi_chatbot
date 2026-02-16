@@ -1,4 +1,4 @@
-# BFSI Call Center AI Assistant 🤖
+# BFSI Call Center AI Assistant
 
 A local, privacy-focused AI assistant designed for **Banking, Financial Services, and Insurance (BFSI)** queries. It uses a **3-Tier Response Pipeline** to deliver accurate, safe, and context-aware answers using a fine-tuned **TinyLlama-1.1B** model.
 
@@ -6,19 +6,19 @@ A local, privacy-focused AI assistant designed for **Banking, Financial Services
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![GPU](<https://img.shields.io/badge/GPU-Required%20(RTX%203070%2B)-orange>)
 
-## 🌟 Key Features
+## Key Features
 
 The system uses a hybrid pipeline to handle queries:
 
-1.  **Tier 1: Dataset Matcher** ⚡
+1.  **Tier 1: Dataset Matcher** 
     - Instantly answers common queries (e.g., "How to check balance?") using similarity search against a curated dataset.
     - **Zero hallucinations.**
 
-2.  **Tier 2: Fine-Tuned SLM** 🧠
+2.  **Tier 2: Fine-Tuned SLM** 
     - Handles general banking tasks (e.g., "Draft an email to close my account") using **TinyLlama-1.1B-Chat** fine-tuned on BFSI instructions.
     - Optimized for polite, compliant interaction.
 
-3.  **Tier 3: RAG Augmented** 📚
+3.  **Tier 3: RAG Augmented** 
     - Retrieves specific facts (e.g., "What is the UPI Lite limit?") from a local Knowledge Base (ChromaDB).
     - Grounded generation prevents inventing numbers or policies.
 
@@ -36,21 +36,14 @@ The system uses a hybrid pipeline to handle queries:
 
 ### Steps
 
-1.  **Clone the Repository**
-
-    ```bash
-    git clone https://github.com/GaneshDoosa/bfsi_chatbot.git
-    cd bfsi_chatbot
-    ```
-
-2.  **Create Conda Environment**
+1.  **Create Conda Environment**
 
     ```bash
     conda create -n bfsi_chatbot python=3.10
     conda activate bfsi_chatbot
     ```
 
-3.  **Install Dependencies**
+2.  **Install Dependencies**
 
     ```bash
     # Install PyTorch with CUDA support first
@@ -60,7 +53,7 @@ The system uses a hybrid pipeline to handle queries:
     pip install -r requirements.txt
     ```
 
-4.  **Configure Environment**
+3.  **Configure Environment**
     Copy `.env.example` to `.env` and add your LangSmith API key (optional, for tracing).
     ```bash
     cp .env.example .env
