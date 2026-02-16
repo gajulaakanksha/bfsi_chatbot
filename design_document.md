@@ -32,26 +32,6 @@ graph TD
     end
 ```
 
-```mermaid
-graph TD
-    User[User via Streamlit] --> Guard[Guardrails (Safety & Domain Check)]
-    Guard -->|Blocked| End[Rejection Response]
-    Guard -->|Valid| Tier1[Tier 1: Dataset Matcher]
-
-    Tier1 -->|High Similarity > 0.85| End
-    Tier1 -->|No Match| Tier2_Check{Is Creative Task?}
-
-    Tier2_Check -->|Yes (Write/Draft)| Tier2[Tier 2: Pure SLM Generation]
-    Tier2_Check -->|No| RAG_Check[RAG Retrieval]
-
-    RAG_Check -->|Relevance > 1.0| Tier3[Tier 3: RAG Augmented SLM]
-    RAG_Check -->|Low Relevance| Tier2
-
-    Tier2 --> Post[Post-Processing]
-    Tier3 --> Post
-    Post --> End
-```
-
 ### 2.2. Request Flow Sequence
 
 ```mermaid
